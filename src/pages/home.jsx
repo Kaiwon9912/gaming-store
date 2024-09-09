@@ -6,7 +6,7 @@ import Carousel from '../components/carousel'
 import CategoryCard from "../components/categoryCard";
 
 import ProductSlide from "../components/productSlide";
-import NewsSlide from "../components/newsSlide";
+
 import ProductCard from "../components/productCard";
 function Home()
 {
@@ -26,8 +26,8 @@ function Home()
 
 
 ];
-const listItem = products?.map(product => <ProductCard product={product} key={product.id} />) || null;
-const listBrand = brands?.map(brand => <li key={brand.id}>{brand.brandName}</li>) || null;
+    const listItem = products?.map(product => <ProductCard product={product} key={product.id} />) || null;
+    const listBrand = brands?.map(brand => <li key={brand.id}>{brand.brandName}</li>) || null;
      return(
       <>
       <div>

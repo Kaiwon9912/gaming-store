@@ -1,0 +1,84 @@
+/* styles.css or your main CSS file */
+/* styles.css */
+
+.gradient-blue {
+  background: radial-gradient(
+    circle at center,
+    rgba(66, 135, 245, 0.8),
+    rgba(10, 10, 50, 1) 80%
+  );
+}
+
+.gradient-orange {
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 123, 61, 0.8),
+    rgba(10, 10, 50, 1) 80%
+  );
+}
+
+.gradient-purple {
+  background: radial-gradient(
+    circle at center,
+    rgba(211, 46, 217, 0.8),
+    rgba(10, 10, 50, 1) 80%
+  );
+}
+
+.gradient-red {
+  background: radial-gradient(
+    circle at center,
+    rgba(219, 39, 66, 0.8),
+    rgba(10, 10, 50, 1) 80%
+  );
+}
+body {
+  background: rgb(255, 245, 238);
+}
+.rate i,
+.rate i:hover ~ i {
+  color: #d6d6d6;
+  text-shadow: none;
+  transition: color 200ms, text-shadow 200ms;
+  /* This will remove the delay when
+     moving the cursor left or right
+     within the set of stars. */
+  transition-delay: 0;
+}
+
+/* This is the style that will be
+   applied to all stars and then
+   subsequently removed from the stars
+   to the right of the one being
+   hovered. */
+.rate:hover i {
+  color: #fc0;
+  text-shadow: #fc0 0 0 20px;
+}
+
+/* Make the effect apply one star at a
+   time. Limiting the selector to when
+   .rate is hovered removes the effect
+   without delay when cursor leaves
+   the .rate area. */
+.rate:hover i:nth-child(2) {
+  transition-delay: 30ms;
+}
+
+.rate:hover i:nth-child(3) {
+  transition-delay: 60ms;
+}
+
+.rate:hover i:nth-child(4) {
+  transition-delay: 90ms;
+}
+
+.rate:hover i:nth-child(5) {
+  transition-delay: 120ms;
+}
+
+/* Miscellaneous styles. */
+.rate i {
+  cursor: pointer;
+  font-style: normal;
+}

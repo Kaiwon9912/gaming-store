@@ -58,7 +58,7 @@ const listBrand = brands.map(brands => <li className="text-[12px]  p-1  rounded-
         </div>
         <ProductSlide/>
         </div>
-        <NewsSlide/>
+        
           </div>
 
             </>

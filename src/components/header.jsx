@@ -60,11 +60,11 @@ function Header() {
           <a>
             <i className="text-2xl text-white fa-regular fa-heart"></i>
           </a>
-          <a href="/login">
+          <a href="/gaming-store/#/login">
             <i className="text-2xl text-white fa-regular fa-user"></i>
           </a>
 
-          <a href="/cart">
+          <a href="/gaming-store/#/cart">
             <i className="text-2xl text-white fa-solid fa-cart-shopping"></i>
           </a>
         </div>

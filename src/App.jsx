@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/"
+          path="/gaming-store"
           element={
             <MainLayout>
               <Home />
@@ -22,7 +22,7 @@ function App() {
           }
         />
         <Route
-          path="/Detail"
+          path="/detail"
           element={
             <MainLayout>
               <Detail />
@@ -30,7 +30,7 @@ function App() {
           }
         />
         <Route
-          path="/Cart"
+          path="/cart"
           element={
             <MainLayout>
               <Cart />
@@ -38,7 +38,7 @@ function App() {
           }
         />
         <Route
-          path="/Login"
+          path="/login"
           element={
           
               <Login />
@@ -46,7 +46,7 @@ function App() {
           }
         />
         <Route
-          path="/Search"
+          path="/search"
           element={
             <MainLayout>
               <Search/>

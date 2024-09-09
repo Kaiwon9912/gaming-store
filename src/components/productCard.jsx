@@ -14,7 +14,7 @@ function ProductCard({product}) {
 
     const handleClick = () => {
      
-      navigate('/Detail');
+      navigate('/detail');
     };
   return (
     <>

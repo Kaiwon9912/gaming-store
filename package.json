@@ -1,13 +1,13 @@
 {
-  "homepage":"https://Kaiwon9912.github.io/FE-Gaming-Store",
+  "homepage": "https://Kaiwon9912.github.io/gaming-store",
   "name": "gaming-ecommerce",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+  
+     "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

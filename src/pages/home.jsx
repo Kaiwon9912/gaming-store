@@ -26,8 +26,8 @@ function Home()
 
 
 ];
-const listItem = products.map(product => <ProductCard product={product} key={product.id} /> );
-const listBrand = brands.map(brands => <li className="text-[12px]  p-1  rounded-full   bg-gray-800 text-white lg:text-2xl  border-4  hover:border-red-500  " key={brands.id}>{brands.brandName}</li>)
+const listItem = products?.map(product => <ProductCard product={product} key={product.id} />) || null;
+const listBrand = brands?.map(brand => <li key={brand.id}>{brand.brandName}</li>) || null;
      return(
       <>
       <div>
@@ -58,7 +58,7 @@ const listBrand = brands.map(brands => <li className="text-[12px]  p-1  rounded-
         </div>
         <ProductSlide/>
         </div>
-        <NewsSlide/>
+    
           </div>
 
             </>

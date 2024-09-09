@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/gaming-store"
+          path="/"
           element={
             <MainLayout>
               <Home />

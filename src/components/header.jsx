@@ -14,7 +14,7 @@ function Header() {
         
         </div>
         <ul className="px-2 space-y-2 text-white ">
-           <a href="/gaming-store">Home</a>
+           <a href="/">Home</a>
            <p>Product<i className="px-2 text-sm text-white fa-solid fa-caret-down"></i></p>
            <ul className="p-2 space-y-2 text-sm bg-gray-800 ">
               <li>Mouse</li>
@@ -33,7 +33,7 @@ function Header() {
       </div>
       <div className="absolute z-10 flex items-center justify-between w-full py-3 bg-transparent md:px-20">
 
-        <a href="/gaming-store">
+        <a href="/">
         <div className="flex md:space-x-5">
           <img
             className="w-16 scale-75 md:scale-100"
